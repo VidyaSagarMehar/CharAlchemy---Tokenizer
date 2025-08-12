@@ -1,12 +1,77 @@
-# React + Vite
+# 🪄 CharAlchemy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CharAlchemy is a sleek **tokenizer and detokenizer** web tool that transforms any mix of **letters**, **numbers**, and **special characters** into their precise **ASCII values** — and back again.  
+It also provides a **real-time mapping view** between characters and their tokenized values, making it a perfect learning aid for **developers, students, and curious minds**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📅 Average Time to Complete
+**~3–4 hours**  
+(From idea to final polished version, including UI design and animations.)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Lessons Learned
+- How to **tokenize** and **detokenize** data using ASCII values in JavaScript.
+- Building an **interactive UI** with **React + Tailwind CSS v4.1**.
+- Designing **modern UI themes** with a minimal black `#000000` and accent orange `#F99727` color palette.
+- Implementing **smooth background animations** using mouse tracking and delayed movement.
+- Separating logic into **independent React components** for better scalability.
+
+---
+
+## 🛠️ Tech Used
+- **React** – UI library for building components.
+- **Tailwind CSS v4.1** – Utility-first styling with custom colors.
+- **Vite** – Fast build tool and dev server.
+- **JavaScript (ES6+)** – Core logic for tokenization/detokenization.
+- **CSS Blur & Transitions** – For smooth background animations.
+- **Custom Mouse Tracker Component** – For animated glowing background following the cursor.
+
+---
+
+## 🚀 Demo
+You can try the live version here:  
+🔗 **[Live Demo – CharAlchemy](https://char-alchemy-tokenizer.vercel.app/)**
+
+---
+
+## 📸 Screenshots
+
+### Tokenizer & Detokenizer UI
+![Tokenizer Screenshot](./screenshots/tokenizer-ui.png)
+
+### Token Mapping View
+![Mapping Screenshot](./screenshots/mapping-view.png)
+
+### Background Mouse Tracker
+![Mouse Tracker Screenshot](./screenshots/mouse-tracker.png)
+
+---
+
+## 📬 Feedback
+If you have any feedback, suggestions, or ideas to improve CharAlchemy,  
+please reach out to me at **vidyasagark890@gmail.com**.
+
+---
+
+## 💡 How It Works
+1. **Tokenization**:  
+   - Enter a string into the **Tokenization Input**.  
+   - Each character is converted into its **ASCII code**.
+2. **Detokenization**:  
+   - Enter ASCII values (comma-separated) into the **Detokenization Input**.  
+   - Values are converted back into their original characters.
+3. **Mapping View**:  
+   - Shows **character → token** mapping in real-time for better understanding.
+
+---
+
+## 🎨 UI Theme
+- **Primary Color:** `#000000` (Black)
+- **Accent Color:** `#F99727` (Orange)
+- **Effect:** Soft glow and blur backgrounds following the cursor.
+
+---
+
+## 📂 Project Structure

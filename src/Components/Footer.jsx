@@ -21,7 +21,7 @@ export const Footer = () => {
 							rel="noopener noreferrer"
 							href="https://github.com/VidyaSagarMehar/CharAlchemy---Tokenizer"
 						>
-							<img className="w-10" src={github} alt="" />
+							<img className="w-9" src={github} alt="" />
 						</a>
 					</li>
 
@@ -31,7 +31,7 @@ export const Footer = () => {
 							rel="noopener noreferrer"
 							href="https://x.com/VidyaSagarMehar"
 						>
-							<img className="w-10" src={twitter} alt="" />
+							<img className="w-9" src={twitter} alt="" />
 						</a>
 					</li>
 					<li>
@@ -40,7 +40,7 @@ export const Footer = () => {
 							rel="noopener noreferrer"
 							href="https://www.linkedin.com/in/vidya-sagar-mehar-bb576814a/"
 						>
-							<img className="w-10" src={linkedin} alt="" />
+							<img className="w-9" src={linkedin} alt="" />
 						</a>
 					</li>
 				</ul>
