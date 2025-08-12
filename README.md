@@ -38,14 +38,6 @@ You can try the live version here:
 
 ## 📸 Screenshots
 
-### Tokenizer & Detokenizer UI
-![Tokenizer Screenshot](./screenshots/tokenizer-ui.png)
-
-### Token Mapping View
-![Mapping Screenshot](./screenshots/mapping-view.png)
-
-### Background Mouse Tracker
-![Mouse Tracker Screenshot](./screenshots/mouse-tracker.png)
 
 ---
 
@@ -75,3 +67,22 @@ please reach out to me at **vidyasagark890@gmail.com**.
 ---
 
 ## 📂 Project Structure
+📁 CUSTOM-TOKENIZER
+│
+├── 📁 node_modules
+├── 📁 public
+│ └── 📁 favicon_io
+├── 📁 src
+│ ├── 📁 assets
+│ ├── 📁 Components
+│ ├── 📄 App.css
+│ ├── 📄 App.jsx
+│ ├── 📄 index.css
+│ ├── 📄 main.jsx
+├── 📄 .gitignore
+├── 📄 eslint.config.js
+├── 📄 index.html
+├── 📄 package-lock.json
+├── 📄 package.json
+├── 📄 README.md
+└── 📄 vite.config.js
