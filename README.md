@@ -6,7 +6,7 @@ It also provides a **real-time mapping view** between characters and their token
 ---
 
 ## 📅 Average Time to Complete
-**~3–4 hours**  
+** 3–4 hours**  
 (From idea to final polished version, including UI design and animations.)
 
 ---
@@ -37,6 +37,8 @@ You can try the live version here:
 ---
 
 ## 📸 Screenshots
+<img width="1861" height="1002" alt="image" src="https://github.com/user-attachments/assets/d2e84177-59af-4cce-ba67-059b26f4122a" />
+<img width="1902" height="238" alt="image" src="https://github.com/user-attachments/assets/f7513182-f087-49f6-8bae-a99029f3727d" />
 
 
 ---
@@ -67,22 +69,5 @@ please reach out to me at **vidyasagark890@gmail.com**.
 ---
 
 ## 📂 Project Structure
-📁 CUSTOM-TOKENIZER
-│
-├── 📁 node_modules
-├── 📁 public
-│ └── 📁 favicon_io
-├── 📁 src
-│ ├── 📁 assets
-│ ├── 📁 Components
-│ ├── 📄 App.css
-│ ├── 📄 App.jsx
-│ ├── 📄 index.css
-│ ├── 📄 main.jsx
-├── 📄 .gitignore
-├── 📄 eslint.config.js
-├── 📄 index.html
-├── 📄 package-lock.json
-├── 📄 package.json
-├── 📄 README.md
-└── 📄 vite.config.js
+<img width="346" height="639" alt="Screenshot 2025-08-12 160305" src="https://github.com/user-attachments/assets/ade84add-bbe6-473a-a01f-356922eef41f" />
+
