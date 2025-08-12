@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import TextTransformCard from './TextTransformCard';
 
 export default function CustomTokenizer() {
 	const [inputText, setInputText] = useState('');
@@ -34,52 +35,30 @@ export default function CustomTokenizer() {
 				</p>
 
 				{/* Tokenization */}
-				<div className="bg-primary p-6 rounded-2xl shadow-lg border border-secondary/20 space-y-4">
-					<label className="block text-lg font-medium text-white">
-						Text → Tokens
-					</label>
-					<input
-						type="text"
-						value={inputText}
-						onChange={(e) => {
-							setInputText(e.target.value);
-							handleTokenize(e.target.value);
-						}}
-						placeholder="Enter text..."
-						className="w-full p-3 rounded-lg bg-black border border-secondary text-white focus:outline-none focus:ring-2 focus:ring-secondary"
-					/>
-					{tokens.length > 0 && (
-						<div className="bg-black border border-secondary/50 p-4 rounded-lg">
-							<p className="text-sm font-semibold text-gray-300 mb-1">Tokens</p>
-							<p className="text-secondary break-words">{tokens.join(' ')}</p>
-						</div>
-					)}
-				</div>
+				<TextTransformCard
+					label="Text → Tokens"
+					placeholder="Enter text..."
+					value={inputText}
+					onChange={(val) => {
+						setInputText(val);
+						handleTokenize(val);
+					}}
+					outputLabel="Tokens"
+					output={tokens.length > 0 ? tokens.join(' ') : ''}
+				/>
 
 				{/* Detokenization */}
-				<div className="bg-primary p-6 rounded-2xl shadow-lg border border-secondary/20 space-y-4 z-20">
-					<label className="block text-lg font-medium text-white">
-						Tokens → Text
-					</label>
-					<input
-						type="text"
-						value={asciiInput}
-						onChange={(e) => {
-							setAsciiInput(e.target.value);
-							handleDetokenize(e.target.value);
-						}}
-						placeholder="Example: 72 101 108 108 111"
-						className="w-full p-3 rounded-lg bg-black border border-secondary text-white focus:outline-none focus:ring-2 focus:ring-secondary"
-					/>
-					{decodedText && (
-						<div className="bg-black border border-secondary/50 p-4 rounded-lg">
-							<p className="text-sm font-semibold text-gray-300 mb-1">
-								Decoded Text
-							</p>
-							<p className="text-secondary">{decodedText}</p>
-						</div>
-					)}
-				</div>
+				<TextTransformCard
+					label="Tokens → Text"
+					placeholder="Example: 72 101 108 108 111"
+					value={asciiInput}
+					onChange={(val) => {
+						setAsciiInput(val);
+						handleDetokenize(val);
+					}}
+					outputLabel="Decoded Text"
+					output={decodedText}
+				/>
 
 				{/* Mapping Table */}
 				{tokens.length > 0 && (
