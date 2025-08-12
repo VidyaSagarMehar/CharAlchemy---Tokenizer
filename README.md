@@ -5,6 +5,22 @@ It also provides a **real-time mapping view** between characters and their token
 
 ---
 
+## 🚀 How to Run the Project
+
+1. **Clone the repository**
+ ```bash
+    git clone <repo-url>
+   ```
+2. **Install dependencies**
+ ```bash
+   npm install
+   ```
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+   
+
 ## 📅 Average Time to Complete
 ** 3–4 hours**  
 (From idea to final polished version, including UI design and animations.)
