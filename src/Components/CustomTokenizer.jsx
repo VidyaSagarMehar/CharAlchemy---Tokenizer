@@ -24,11 +24,18 @@ export default function CustomTokenizer() {
 	return (
 		<div className=" z-10 min-h-screen bg-black text-white p-8 flex flex-col items-center">
 			<div className="max-w-3xl w-full space-y-10">
-				<h1 className="text-3xl font-bold text-center">CharAlchemy</h1>
+				<h1 className="text-3xl sm:text-5xl font-bold text-center underline decoration-secondary">
+					CharAlchemy
+				</h1>
+				<p className="text-xl font-semibold text-center">
+					A <span className="text-secondary">tokenizer</span> and{' '}
+					<span className="text-secondary">detokenizer</span> tool that
+					transforms any mix of letters, numbers, and special character
+				</p>
 
 				{/* Tokenization */}
 				<div className="bg-primary p-6 rounded-2xl shadow-lg border border-secondary/20 space-y-4">
-					<label className="block text-lg font-medium text-secondary">
+					<label className="block text-lg font-medium text-white">
 						Text → Tokens
 					</label>
 					<input
@@ -51,7 +58,7 @@ export default function CustomTokenizer() {
 
 				{/* Detokenization */}
 				<div className="bg-primary p-6 rounded-2xl shadow-lg border border-secondary/20 space-y-4 z-20">
-					<label className="block text-lg font-medium text-secondary">
+					<label className="block text-lg font-medium text-white">
 						Tokens → Text
 					</label>
 					<input
